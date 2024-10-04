@@ -1,0 +1,35 @@
+{
+    "restaurants": [
+      {
+        "name": "Rumah Makan Ayam Bunut",
+        "lat": -6.9275,
+        "lng": 106.9286,
+        "rating": 4.5
+      },
+      {
+        "name": "Like Earth Coffee & Space",
+        "lat": -6.9256,
+        "lng": 106.9272,
+        "rating": 4.7
+      },
+      {
+        "name": "Mami Ibang Cafe N' Eatery",
+        "lat": -6.9239,
+        "lng": 106.9255,
+        "rating": 4.6
+      },
+      {
+        "name": "Warung Nasi Ampera",
+        "lat": -6.9313,
+        "lng": 106.9219,
+        "rating": 4.3
+      },
+      {
+        "name": "Kedai Kopi Kita",
+        "lat": -6.9300,
+        "lng": 106.9252,
+        "rating": 4.8
+      }
+    ]
+  }
+  

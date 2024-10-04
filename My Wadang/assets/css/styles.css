@@ -1,0 +1,52 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#map {
+    height: 80vh; /* Map height tetap, atau bisa sesuaikan */
+    width: 100%;
+    position: relative; /* Pastikan map tetap pada posisi */
+    z-index: 0; /* Z-index lebih rendah dari navigasi */
+}
+
+.logo {
+    width: 150px;
+    margin: 10px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #654321; /* Ganti warna sesuai keinginan */
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000; /* Ini memastikan navbar di atas peta */
+}
+
+.nav-bar button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-bar img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+#info-box {
+    position: absolute;
+    bottom: 60px; /* Pastikan info box berada di atas navbar */
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    display: none;
+    z-index: 1000; /* Pastikan info box berada di atas peta */
+}
